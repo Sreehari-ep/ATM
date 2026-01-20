@@ -27,12 +27,12 @@ This project is designed for learning purposes and demonstrates user authenticat
 - Open a terminal/command prompt in the project folder.
 - Run the program:
 python atm.py
-- Enter the default PIN (1234) to log in.
-- Initial balance: ₹5000
-- Daily withdrawal limit: ₹20000
+- Enter the default PIN (5678) to log in.
+- Initial balance: ₹10000
+- Daily withdrawal limit: ₹50000
 
 📖 Example Usage
-Enter your PIN: 1234
+Enter your PIN: 5678
 ✅ Authentication successful!
 
 ===== ATM Menu =====
@@ -43,14 +43,14 @@ Enter your PIN: 1234
 5. Change PIN
 6. Exit
 Select an option: 1
-💰 Current Balance: ₹5000
+💰 Current Balance: ₹10000
 
 
 
 
 🔑 Customization
 - Change the default PIN, initial balance, or daily withdrawal limit in:
-atm = ATM(pin="1234", balance=5000, daily_limit=20000)
+atm = ATM(pin="5678", balance=10000, daily_limit=50000)
 - Extend functionality by adding:
 - Multiple user accounts
 - Interest calculation
